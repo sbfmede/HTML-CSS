@@ -1,14 +1,50 @@
 body{
-    background-color: rosybrown;
 
-font-family: Arial;
-line-height: 1.5;
-font-size: 25px;
+    margin: 0px;
+
+    background:  url("png/bkg-blu.jpg");
+
+    font-family: Arial;
+    line-height: 1.5;
+    font-size: 18px;
 }
-h1{
-    font-size: 45;
-    color:silver; ;
+.card{
+    width: 400px;
+    margin: 30px auto;
+   
+
+    background-color: #fff;
+
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
 }
-.title{
-    color:steelblue;
+
+.card-photo{
+
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 50%;
+}
+.card-title{
+    font-size: 20px;
+    text-align: center;
+    color:green;
+}
+.card-text {
+    text-align: center;
+    font-size: 14px;
+}
+
+.card-subtitle {
+    text-align: center;
+    font-size: 18px;
+    color: rgb(14, 9, 9);
+}
+
+.card-list{
+    padding-left: 0;
+    list-style-position: inside;
 }
